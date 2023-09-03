@@ -3,6 +3,8 @@ import Dropdown from "./components/Dropdown"
 import Notifications from "./components/Notifications"
 import Phone from "./components/Phone"
 import SquishyCard from "./components/SquishyCard"
+import Crazybtn,{DottedButton} from "./components/Crazybtn"
+
 
 function App() {
  
@@ -14,6 +16,8 @@ function App() {
       <Notifications></Notifications>
       <Phone/>
       <SquishyCard/>
+      <Crazybtn/>
+      <DottedButton />
     </>
   )
 }
